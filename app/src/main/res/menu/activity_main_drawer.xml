@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/first_menu">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="More Apps" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/second_menu">
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_email_black_24dp"
+                    android:title="Email" />
+                <item
+                    android:id="@+id/thumbs_up"
+                    android:icon="@drawable/ic_thumb_up_black_24dp"
+                    android:title="Facebook" />
+
+                <item
+                    android:id="@+id/share_it"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share App" />
+
+
+
+            </menu>
+        </item>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/third_menu">
+
+        <item android:title="Source Code">
+            <menu>
+                <item
+                    android:id="@+id/git_hub"
+                    android:icon="@drawable/github"
+                    android:title="Github" />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+
+</menu>

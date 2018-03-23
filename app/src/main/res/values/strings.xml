@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Famous Quotes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_phone">+91 8555051728</string>
+
+    <string name="menu_mail">aditya9640@gmail.com</string>
+
+    <string name="menu_vk">xda.aditya</string>
+    <string name="main_fio">Aditya Pratap Singh</string>
+    <string name="main_about">I am an Android and Web Developer from India and i love to code in C++,Java,Python and Javascript</string>
+    <string name="main_age">28 August 1996</string>
+    <string name="main_city">Chittoor</string>
+</resources>
